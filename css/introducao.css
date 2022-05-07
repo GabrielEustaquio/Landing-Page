@@ -1,0 +1,10 @@
+.background-color-div {
+  background-color: var(--fundo-2);
+}
+.background-color-div:not(:first-child, :last-child) {
+  border-left: var(--borda-esquerda-par);
+}
+.background-color-div:first-child:hover,
+.background-color-div:last-child:hover {
+  border-left: var(--borda-esquerda-impar);
+}
